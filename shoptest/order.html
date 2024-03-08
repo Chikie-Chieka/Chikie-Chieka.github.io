@@ -27,6 +27,70 @@
         </header>
 
         <img src="./orderbanner.jpg" alt="orderbanner" width="800px">
+
+        <h3>Order Form</h3>
+
+        <div>
+            <form action="form" method="post">
+                <legend>Enter your personal details</legend>
+                <br>
+                <label for="Full_Name">Full Name:</label>
+                <input type="text" id="Full_Name" name="Full_Name" required>
+                <br>
+
+                <br>
+                <label for="Phone_Number">Phone Number:</label>
+                <input type="tel" id="Phone_Number" name="Phone_Number" required>
+                <br>
+
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" required>
+                <br>
+
+                <br>
+                <label for="Address">Address:</label>
+                <input type="text" id="Address" name="Address" required>
+                <br>
+
+                <br>
+                <label for="City">City:</label>
+                <select id="City" name="City">
+                    <option value="HCMC">Ho Chi Minh City</option>
+                    <option value="Hanoi">Hanoi</option>
+                    <option value="Danang">Danang</option>
+                </select>
+                <br>
+
+                <br>
+                <label for="Postcode">Postcode:</label>
+                <input type="text" id="Postcode" name="Postcode" required>
+            </form>
+        </div>
+
+        <h3>Select your Fumo:</h3>
+
+        <div></div>
+            <select name="product_select" id="product_select" multiple>
+                <option value="satori">Satori</option>
+                <option value="koishi">Koishi</option>
+                <option value="chen">Chen</option>
+                <option value="ran">Ran</option>
+                <option value="cirno">Cirno</option>
+                <option value="yuuka">Yuuka</option>
+                <option value="flan">Frandre</option>
+                <option value="sakuya">Sakuya</option>
+            </select>
+
+            <p>
+                <b>Tip:</b> Hold down the Ctrl (windows) or Command (Mac) button to select multiple options!
+            </p>
+        </div>
+
+        <div>
+            <input type="submit" value="Order Your Fumo Now!">
+        </div>
     </center>
+
 </body>
 </html>
